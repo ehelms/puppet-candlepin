@@ -101,4 +101,9 @@ class candlepin::params {
   $lang = undef
   $security_manager = false
   $shutdown_wait = undef
+
+  $artemis_host = 'localhost'
+  $artemis_port = '61613'
+  $artemis_truststore = $keystore_file
+  $artemis_truststore_password
 }
